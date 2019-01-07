@@ -1,0 +1,38 @@
+
+/*AQUI VEMOS O USO da transparencia
+com o uso do RGBA e a mescla de cores,
+onde o max 1 o min 0 e o idela é 0.5 50%.
+hehe.*/
+
+/*
+#box{
+	width: 300px;
+	height: 300px;
+	background: url("../img/camera.png");
+	}
+
+#box h1{
+	background: rgba(255,255,255,0.5);
+	border-bottom: solid 3px #FFF;
+} */	
+
+/*USO do DEGRADE = GRADIENTS onde podemos 
+deixar mais atraente nosso ambiente*/
+ 
+
+#box{
+	width: 400px;
+	height: 300px;
+	/*RADIAL DEGRADE DE DENTRO A FORA
+	 E VICE VERSA, NÃO PODE HAVER ESPAÇO*/
+	background: radial-gradient(red, yellow);
+	
+	/*-moz-background: radial-gradient(red, yellow);
+	-webkit-background: radial-gradient(red, yellow);*/
+
+	/*LINEAR DEGRADE DE CIMA 
+	ABAIXO E VICE VERSA
+	
+	background: linear-gradient(red, yellow);
+	}*/
+ 

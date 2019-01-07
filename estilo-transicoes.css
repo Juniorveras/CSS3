@@ -1,0 +1,23 @@
+
+/*TRANSIÇÕES*/
+/*Aqui são as dimensões de um quadrado 
+teste*/
+#box-transicoes{
+	width: 300px;
+	height: 300px;
+	background: gray;
+    
+}
+/*Para evitar que ele mude de umas só
+temos que usar o transition e incluir
+as sua propriedades de comando como segue 
+abaixo EX: ALL significa todos anteriores
+em caso de duvida*/
+#box-transicoes:hover{
+	width: 400px;
+	background: orange;
+	/*transition: background 2s,width 5s;*/
+    transition: all 2s;
+}
+
+

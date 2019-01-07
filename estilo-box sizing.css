@@ -1,0 +1,22 @@
+
+#box{
+	width: 400px;
+	height: 300px;
+	background: #b9c941;
+	padding: 50px;
+	/* OBS: PADDING SEMPRE 
+	DOBRARA DE TAMANHO COM O USO
+	DO BORDER-RADIUS*/
+
+	
+	box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    
+
+	/*
+	border-radius:20px;
+	-webkit-border-radius:20px;
+    -moz-border-radius:20px;
+	*/
+}

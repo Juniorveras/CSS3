@@ -1,0 +1,22 @@
+/*SOMBRAS e assim se temos sombras em CSS3*/
+#box{
+	width: 400px;
+	height: 400px;
+	margin: 50px;
+	padding: 8px;
+	background: #009670;
+    text-shadow: 1px 2px 2px black;
+    /*box-shadow: 5px 5px 5px 5px black;*/
+    box-shadow: 10px 10px 10px 5px black,
+    -10px -10px 10px 5px blue;
+}
+
+#box h1{
+	color: #FFF;
+	font-size: 60px;
+	/*text-shadow: 4px 4px 5px black;*/
+	/*text-shadow: 4px 4px rgba(0,0,0,0.5);*/
+	text-shadow: 4px 4px black;
+}
+
+
